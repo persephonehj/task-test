@@ -10,6 +10,8 @@ public class CreateJob extends Thread {
     private Scheduler scheduler;
 
     public CreateJob(Scheduler scheduler){
+        
+        
         this.scheduler = scheduler;
     }
     public void run() {
